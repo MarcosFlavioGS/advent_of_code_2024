@@ -7,6 +7,6 @@ defmodule AdventOfCode2024Test do
   end
 
   test "Day 1 part 1" do
-    assert Day1.Day1Part1.part_1() == {:ok, 42}
+    assert Day1.Day1Part1.part_1() == {:ok, 2066446}
   end
 end
