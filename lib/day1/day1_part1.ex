@@ -22,6 +22,8 @@ defmodule Day1.Day1Part1 do
     {:ok, final}
   end
 
+  # Util functions
+
   defp select([], acc1, acc2), do: {acc1, acc2}
 
   defp select([[elem1, elem2] | tail], acc1, acc2) do
