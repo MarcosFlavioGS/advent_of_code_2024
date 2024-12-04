@@ -13,7 +13,7 @@ defmodule Day1.Day1Part2 do
 
   """
 
-  def part2 do
+  def part_2 do
     result =
       File.read!("input/day1.txt")
       |> String.split("\n", trim: true)
