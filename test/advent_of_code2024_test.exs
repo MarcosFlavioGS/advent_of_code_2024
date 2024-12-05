@@ -21,4 +21,8 @@ defmodule AdventOfCode2024Test do
   test "Day 2 part 1" do
     assert Day2.Day2Part1.part_1() == {:ok, 463}
   end
+
+  test "Day 2 part 2" do
+    assert Day2.Day2Part2.part_2() == {:ok, 42}
+  end
 end
